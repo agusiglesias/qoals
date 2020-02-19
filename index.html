@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>QOALS - Practice</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <main>
+        <h2 class="landing-title">qoals</h2>
+
+        <section class="landing">
+            <img src="img/hero-scene.svg" alt="" class="landing-img">
+            <div class="landing-txt">
+                <h1>Get alingned around your goals</h1>
+                <p class="landing-intro">Let's get rid of all boards, lists, deadlines, calendars... Get aligned around what really matter the most.</p>
+                <a href="" class="button">Join the beta</a>
+            </div>
+        </section>
+        <section class="features">
+
+            <div class="feature">
+                <img src="img/icon-1.svg" alt="">
+                <h3>Set goals</h3>
+                <p>Set and prioritize your goals and let your team know what matter the most.</p>
+            </div>
+
+            <div class="feature task">
+                <img src="img/icon-2.svg" alt="">
+                <h3>Add Tasks</h3>
+                <p>Set and prioritize your goals and let your team know what matter the most.</p>
+            </div>
+
+            <div class="feature resource">
+                <img src="img/icon-3.svg" alt="">
+                <h3>Collect things</h3>
+                <p>Set and prioritize your goals and let your team know what matter the most.</p>
+            </div>
+
+            <div class="feature track">
+                <img src="img/icon-4.svg" alt="">
+                <h3>Track progress</h3>
+                <p>Set and prioritize your goals and let your team know what matter the most.</p>
+            </div>
+
+        </section>
+        <section class="oriented">
+            <img src="img/goals.svg" alt="">
+            <div class="text">
+                <h2>Goal-oriented approach FTW!</h2>
+                <p>It's about time we simplify things. Get aligned around goals and let everyone know what's important for the business. Add goals under various projects and start adding tasks and resources to make that goal happen.</p>
+            </div>
+
+        </section>
+        <section class="team">
+            <div class="text">
+                <h2>Get a birds-eye view of what's going on</h2>
+                <p>Become human-centric! Be in the know and follow the progress of the next big thing as it unfolds. We designed a simple feed to make it easier to follow your day-to-day progress.</p>
+            </div>
+            <img src="img/team.svg" alt="">
+
+        </section>
+        <section class="resources">
+            <img src="img/resources.svg" alt="">
+            <div class="text">
+                <h2>Collect resources without integrations</h2>
+                <p>Uploading files are so 2000's. Have you ever heard of something like... cloud? Just provide a link to a resource that'll help the goal happen and make it accessable to everyone. Don't leave people digging deep in slack channels or asking for links.</p>
+            </div>
+
+        </section>
+    </main>
+
+    <section class="slider">
+        <img src="img/Slide-1.png" alt="">
+        <img src="img/Slide-2.png" alt="">
+        <img src="img/Slide-3.png" alt="">
+        <img src="img/Slide-4.png" alt="">
+        <img src="img/Slide-5.png" alt="">
+        <img src="img/Slide-6.png" alt="">
+        <img src="img/Slide-7.png" alt="">
+    </section>
+    <section class="handson">
+        <div class="handson-text">
+            <h2>Get your hands on!</h2>
+            <h3>Join our beta program and be the first to adopt qoals for free.</h3>
+            <a href="#" id="myBtn"  class="button">Join the beta</a>
+        </div>
+    </section>
+    <footer>
+        <h3>qoals</h3>
+        <div class="footer-text">
+            <p>Goal based project management tool</p>
+            <p>Got questions? Reach us at <a href="#">hey@qoals.com</a></p>
+        </div>
+    </footer>
+
+
+
+    <div id="myModal" class="modal">
+
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>This is just a practice website! The original site is here: <a href="http://qoals.com/">http://qoals.com/</a></p>
+        </div>
+
+    </div>
+
+    <script>
+        
+        var modal = document.getElementById("myModal");
+
+        
+        var btn = document.getElementById("myBtn");
+
+        
+        var span = document.getElementsByClassName("close")[0];
+
+        
+        btn.onclick = function() {
+            modal.style.display = "block";
+        }
+
+       
+        span.onclick = function() {
+            modal.style.display = "none";
+        }
+
+        
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+
+    </script>
+
+</body>
+
+</html>
