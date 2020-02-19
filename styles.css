@@ -117,13 +117,7 @@ p {
 }
 
 .slider {
-    display: flex;
-    margin: 50px 0;
-    overflow: scroll;
-}
-
-.slider img {
-    padding: 0 40px;
+    display: none;
 }
 
 .handson {
@@ -237,4 +231,13 @@ footer h3 {
     .text{
         width: 50%;
     }
+    .slider {
+    display: flex;
+    margin: 50px 0;
+    overflow: scroll;
+}
+
+.slider img {
+    padding: 0 40px;
+}
 }
